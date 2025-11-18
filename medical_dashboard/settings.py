@@ -79,8 +79,8 @@ DATABASES = {
         'NAME': 'medical_db',
         'USER': 'admin',
         'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'HOST': '127.0.0.1',
+        'PORT': '5433',
     }
 }
 
