@@ -2,6 +2,7 @@
 
 > Django admin panel for managing medical data from FastAPI backend
 
+[![CI](https://github.com/aleks2008-dev/medical-dashboard-django/workflows/Django%20CI/badge.svg)](https://github.com/aleks2008-dev/medical-dashboard-django/actions)
 [![Django](https://img.shields.io/badge/Django-5.2-green.svg)](https://djangoproject.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)](https://postgresql.org)
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://python.org)
