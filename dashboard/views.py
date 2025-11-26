@@ -1,8 +1,10 @@
-from django.shortcuts import render
+from datetime import datetime, timedelta
+
 from django.contrib.admin.views.decorators import staff_member_required
 from django.db.models import Count
+from django.shortcuts import render
+
 from .models import Doctor
-from datetime import datetime, timedelta
 
 
 @staff_member_required

@@ -1,9 +1,11 @@
-from django.test import TestCase, Client
-from django.contrib.auth.models import User as AuthUser
-from unittest.mock import patch, MagicMock
-from .models import Doctor, User, Appointment, Room
 import uuid
 from datetime import datetime
+from unittest.mock import MagicMock, patch
+
+from django.contrib.auth.models import User as AuthUser
+from django.test import Client, TestCase
+
+from .models import Appointment, Doctor, Room, User
 
 
 class DoctorModelTest(TestCase):
